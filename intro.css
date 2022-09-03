@@ -1,0 +1,364 @@
+<<<<<<< HEAD:intro.css
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Lato:ital,wght@0,300;0,400;1,100&family=Limelight&family=Open+Sans&family=Poppins:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('minecraft-31.jpg');
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1%;
+  background-color: #FDEEDC;
+  background: #fcf5ee;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 0px;
+}
+
+.nav-link ul {
+  display: flex;
+  list-style-type: none;
+
+}
+
+nav .fa-solid {
+  display: none;
+
+}
+
+#head {
+  font-family: 'Limelight';
+  font-size: 25px;
+  color: #F1A661;
+  display: flex;
+  align-items: center;
+
+}
+
+.nav-link li a {
+  text-decoration: none;
+  color: black;
+  margin: 0 14px;
+  color: #F1A661;
+}
+
+.nav-link li a:hover {
+  color: #F1A661;
+  font-size: 17px;
+  transition: 0.2s;
+}
+
+.main-page {
+  padding: 7%;
+
+}
+
+.row {
+  display: flex;
+}
+
+.column1 {
+  border-radius: 10px;
+  padding: 2%;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+.column1 h1 {
+  margin-top: 20px;
+  font-family: 'Limelight';
+}
+
+.column2 img {
+  width: 500px;
+}
+
+.column2 img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+#abouthead {
+  font-size: 40px;
+  color: #FECD70;
+}
+
+#about {
+  font-size: 20px;
+  color: #F3E0B5;
+}
+
+.socials {
+  display: flex;
+  justify-content: left;
+}
+
+#discord {
+  margin-top: 2px;
+  width: 49px;
+}
+
+#discord:hover {
+  transform: scale(1.2);
+  fill: #5865F2;
+  transition: 0.2s;
+}
+
+#facebook {
+  margin: 0px 30px;
+  margin-top: 5px;
+  width: 35px;
+}
+
+#facebook:hover {
+  transform: scale(1.2);
+  fill: #129AF6;
+  transition: 0.2s;
+}
+
+#youtube {
+  width: 48px;
+  margin-top: 3px;
+}
+
+#youtube:hover {
+  transform: scale(1.2);
+  fill: #FF0000;
+  transition: 0.2s;
+}
+
+#tiktok {
+  width: 30px;
+  margin: 0 30px;
+  margin-top: 7px;
+}
+
+#tiktok:hover {
+  transform: scale(1.2);
+  fill: #ff0050;
+  transition: 0.2s;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+@media only screen and (max-width: 760px) {
+  nav .nav-link {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #F3E0B5;
+    width: 200px;
+    height: 100vh;
+    transition: 0.6s;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border-radius: 0px;
+  }
+
+  nav .nav-link ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  nav .nav-link ul li {
+    margin-top: 15px;
+  }
+
+  nav .fa-solid {
+    color: #F1A661;
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 15px;
+  }
+}
+
+=======
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Lato:ital,wght@0,300;0,400;1,100&family=Limelight&family=Open+Sans&family=Poppins:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('minecraft-31.jpg');
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1%;
+  background-color: #FDEEDC;
+  background: #fcf5ee;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 0px;
+}
+
+.nav-link ul {
+  display: flex;
+  list-style-type: none;
+
+}
+
+#head{
+  font-family: 'Limelight';
+  font-size: 25px;
+  color: #F1A661;
+  display: flex;
+  align-items: center;
+
+}
+
+.nav-link li a {
+  text-decoration: none;
+  color: black;
+  margin: 0 14px;
+  color: #F1A661;
+}
+
+.nav-link li a:hover {
+  color: #F1A661;
+  font-size: 17px;
+  transition: 0.2s;
+}
+
+.main-page {
+  padding: 7%;
+
+}
+
+.row {
+  display: flex;
+}
+
+.column1 {
+  border-radius: 10px;
+  padding: 2%;
+  margin: 10px;
+  background: rgba( 255, 255, 255, 0 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+.column1 h1 {
+  margin-top: 20px;
+  font-family: 'Limelight';
+}
+
+.column2 img {
+  width: 500px;
+}
+
+.column2 img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+#abouthead {
+  font-size: 40px;
+  color: #FECD70;
+}
+
+#about {
+  font-size: 20px;
+  color: #F3E0B5;
+}
+
+.socials {
+  display: flex;
+  justify-content: left;
+}
+
+#discord {
+  margin-top: 2px;
+  width: 49px;
+}
+
+#discord:hover {
+  transform: scale(1.2);
+  fill: #5865F2;
+  transition: 0.2s;
+}
+
+#facebook {
+  margin: 0px 30px;
+  margin-top: 5px;
+  width: 35px;
+}
+
+#facebook:hover {
+  transform: scale(1.2);
+  fill: #129AF6;
+  transition: 0.2s;
+}
+
+#youtube {
+  width: 48px;
+  margin-top: 3px;
+}
+
+#youtube:hover {
+  transform: scale(1.2);
+  fill: #FF0000;
+  transition: 0.2s;
+}
+
+#tiktok {
+  width: 30px;
+  margin: 0 30px;
+  margin-top: 7px;
+}
+
+#tiktok:hover {
+  transform: scale(1.2);
+  fill: #ff0050;
+  transition: 0.2s;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+>>>>>>> fd842490da67c0a10f0a097ff7915f1c84f4bf38:ArrowCraft Website/intro.css
